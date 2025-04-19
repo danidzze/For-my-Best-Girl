@@ -1,0 +1,41 @@
+header {
+    font-size: 32px;
+    text-align: center;
+}
+
+header p {
+    color: red;
+    font-size: 150px;
+    margin-top: -20px;
+}
+
+.p1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    border: 2px solid #ff1d61;
+    color: #ff1d61;
+    background-color: transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.6s ease;  
+    transform: scale(1.5);
+}
+  
+.btn:hover {
+    background-color: #ff1d61;
+    color: white;
+    box-shadow: 0 0 40px rgba(255, 29, 97, 1);
+    transform: scale(1.6);
+}
+
+.love {
+    text-align: center;
+    margin-top: 80px;
+}
